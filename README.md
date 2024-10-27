@@ -27,5 +27,3 @@ It supports SATA, SAS, and NVMe drives. The script also verifies the necessary t
 
 # Tested on
 Checkmk Version: 2.2.0.cre
-ram.  If not, see <https://www.gnu.org/licenses/>.
-
