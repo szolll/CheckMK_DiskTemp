@@ -12,6 +12,7 @@ Author        : Daniel Sol
 Git           : https://github.com/szolll
 
 Email         : daniel.sol@gmail.com
+
 Version       : 1.2
 
 License       : GNU General Public License v3.0
