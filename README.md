@@ -5,8 +5,7 @@ Checkmk plugin to monitor disk temperatures (HDD, SSD, NVMe). Provides warnings 
 
 # Description   
 
-Checkmk plugin to monitor disk temperatures (HDD, SSD, NVMe).
-Provides warnings and critical alerts based on temperature thresholds.
+This script checks the temperatures of all detected disks and outputs the results in a format compatible with Checkmk.
 
 Author        : Daniel Sol
 
@@ -17,11 +16,12 @@ Version       : 1.2
 
 License       : GNU General Public License v3.0
 
-Usage         : Add the plugin to the default Checkmk agent's local checks folder.
+# Usage        
 
-Notes         : 
+Add the plugin to the default Checkmk agent's local checks folder.
 
-This script checks the temperatures of all detected disks and outputs the results in a format compatible with Checkmk.
+
+
 It supports SATA, SAS, and NVMe drives. The script also verifies the necessary tools are installed and skips execution on VMs.
 
 # Tested on
